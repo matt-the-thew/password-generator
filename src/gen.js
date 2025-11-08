@@ -9,14 +9,14 @@ export class Generator {
         'W', 'X', 'Y', 'Z', '[', '\\', ']', '^', '_', '`', 'a',
         'b', 'c', 'd', 'e', 'f', 'g',  'h', 'i', 'j', 'k', 'l',
         'm', 'n', 'o', 'p', 'q', 'r',  's', 't', 'u', 'v', 'w',
-        'x', 'y', 'z', '{', '|', '}',  '~'
+        'x', 'y', 'z', '{', '|', '}',  '~', '4'
     ]
     }
 
     generatePassword(length) {
         let newPassword = ""
         for (let i = 0; i < length; i++) {
-            const indexInRange = Math.floor(Math.random() * 95)
+            const indexInRange = Math.floor(Math.random() * this.characterPool.length)
             newPassword += this.characterPool[indexInRange]
         }
         return newPassword; 
