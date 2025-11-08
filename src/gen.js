@@ -19,6 +19,6 @@ export class Generator {
             const indexInRange = Math.floor(Math.random() * 95)
             newPassword += this.characterPool[indexInRange]
         }
-        return newPassword;
+        return newPassword; 
     }
 }
