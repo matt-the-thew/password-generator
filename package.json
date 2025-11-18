@@ -1,0 +1,24 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "Password generator with limited functionality, accepting user input",
+  "homepage": "https://github.com/matt-the-thew/password-generator#readme",
+  "bugs": {
+    "url": "https://github.com/matt-the-thew/password-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-the-thew/password-generator.git"
+  },
+  "license": "ISC",
+  "author": "Matthew Morton",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vite": "^7.2.2"
+  }
+}
